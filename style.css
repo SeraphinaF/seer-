@@ -1,0 +1,109 @@
+#myFakeElement { color:red ; }
+ body{
+    width: 100% ;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.banner-img{
+    background-image: url(google-logo.png);
+    position: relative;
+    z-index: 0;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+}
+.banner-text h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    color:rgb(32, 29, 29);  
+}
+.banner-text h4{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(42, 39, 39);
+    text-decoration-line: underline;
+}
+.links{
+    width: 100%;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: bold;
+
+}
+.btn-links{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    letter-spacing: 2px;  
+    
+}
+.btn1{
+    color:black;
+
+    border-radius: 15px;
+    background-color: rgb(99, 124, 247);
+    padding: 30px 40px;
+    
+}
+.btn2{
+    border-radius: 15px;
+    background-color: rgb(237, 77, 56);
+    padding:30px 45px;
+    
+}
+.btn3{
+    border-radius: 15px;
+    background-color:rgba(255, 255, 0, 0.700) ;
+    padding: 30px 100px;
+    
+}
+.btn4{
+    border-radius: 15px;
+    background-color: rgba(0, 128, 0, 0.700);
+    padding: 30px 60px;
+    
+}
+.btn5{
+    border-radius: 15px;
+    background-color: rgba(0, 128, 0, 0.700);
+    padding:30px 80px;
+}
+
+/* hoverlinks*/
+
+.btn1:hover{
+    border-radius: 15px;
+    background-color: rgb(99,124,247,0.575);
+    padding: 30px 40px;
+}
+.btn2:hover{
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.575);
+    padding:30px 45px;
+}
+.btn3:hover{
+    border-radius: 15px;
+    background-color:rgba(255, 255, 0, 0.575) ;
+    padding: 30px 100px;
+}
+.btn4:hover{
+    border-radius: 15px;
+    background-color: rgba(0, 128, 0, 0.575);
+    padding: 30px 60px;
+}
+.btn5:hover{
+    border-radius: 15px;
+    background-color: rgba(0, 128, 0, 0.575);
+    padding:30px 80px;
+}
